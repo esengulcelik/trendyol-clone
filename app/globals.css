@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.account-class{
+  @apply hover:bg-orange-100  transition duration-500    hover:rounded-md  px-3 py-2 flex gap-3;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* WebKit tarayıcılar (Chrome, Safari, Edge) için */
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none; /* Internet Explorer ve Edge için */
+  scrollbar-width: none; /* Firefox için */
+}
